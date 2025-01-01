@@ -1,0 +1,56 @@
+.app {
+  height: 100%;
+}
+/* Header */
+header {
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Main */
+main {
+  padding: 5px;
+  background-color: rgb(221, 221, 221);
+}
+
+/* Product List */
+.product-list {
+  height: 70vh;
+  overflow: auto;
+  /*     background-color: antiquewhite;
+ */
+}
+
+.list-row {
+  width: 100%;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 2px;
+  margin: 5px 0 5px 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.number {
+  align-self: center;
+  text-align: end;
+}
+
+.total {
+  background-color: white;
+}
+
+.total-discount {
+  font-size: 15px;
+}
+
+.btn-add {
+  display: flex;
+  justify-content: center;
+  border-color: grey;
+}
