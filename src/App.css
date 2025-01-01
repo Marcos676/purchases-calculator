@@ -1,6 +1,62 @@
 .app {
   height: 100%;
+  position: relative;
 }
+
+/* Modal */
+.modal {
+  /* display: none; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(61, 61, 61, 0.445);
+  width: 100%;
+  height: 100%;
+}
+
+.container-modal-form {
+  background-color: rgba(139, 138, 138, 0.849);
+  margin: 50px 20px;
+  border-radius: 25px;
+}
+.container-modal-form form {
+  padding: 20px;
+  text-align: end;
+}
+
+.modal-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  margin: 9px auto;
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.btn-close {
+  font-size: 18px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.719);
+  display: inline;
+  padding: 5px 9px;
+  margin: 0;
+}
+.btn-save {
+  font-weight: bold;
+  background-color: rgba(38, 230, 38, 0.781);
+  color: white;
+  padding: 9px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
 /* Header */
 header {
   font-size: 25px;
