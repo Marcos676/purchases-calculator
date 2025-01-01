@@ -1,4 +1,4 @@
-#App para calcular las compras en supermecados
+# App para calcular las compras en supermecados
 
 En la actualidad los supermercados ponen diversas condiciones para que un producto tenga descuento, algunos no permiten acumular descuentos u ofertas mientras que otros si, esto hace que a uno se le haga ajetreado calcular sus compras con una calculadora normal, ademas de tener que recordar el precio que le pertenece a cada producto en caso de cambiar cosas de la lista a durante el transcurso de la compra. Esta app busca ser lo suficiente flexible como para poder calcular correctamente sus compras antes de llegar a la caja.
 
